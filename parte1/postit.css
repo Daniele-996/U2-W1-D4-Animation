@@ -13,6 +13,7 @@ body {
   font-style: normal;
   font-weight: 400;
   margin-inline: auto;
+  margin-top: 1rem;
 }
 
 h2 {
@@ -39,7 +40,7 @@ p {
   background-color: #fdfdcb;
   box-shadow: 5px 10px 10px #2e2e2e;
   margin: 1rem;
-  transform: rotateZ(-6deg);
+  transform: rotateZ(354deg);
 }
 
 .colorG {
@@ -53,7 +54,7 @@ p {
   background-color: #c9c9f7;
   box-shadow: 5px 10px 10px #2e2e2e;
   margin: 1rem;
-  transform: rotateZ(-9deg);
+  transform: rotateZ(351deg);
 }
 
 .postit:hover {
@@ -61,4 +62,5 @@ p {
   transform: unset;
   transition: transform 1s;
   transform: scale(1.2);
+  z-index: 1;
 }

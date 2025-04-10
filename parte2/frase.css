@@ -11,16 +11,69 @@ body {
   font-family: "Bree Serif";
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   display: flex;
   justify-content: center;
 }
 #testoAlternato {
   margin-top: 5rem;
+  margin-inline: auto;
   padding: 1.5rem;
   display: flex;
   justify-content: start;
   width: 600px;
   height: auto;
   border: 2px solid #666666;
+}
+p {
+  position: relative;
+}
+
+.parole {
+  color: #6a889c;
+  display: flex;
+  flex-direction: column;
+}
+
+#first {
+  position: absolute;
+  top: -15px;
+  right: -45px;
+  opacity: 0;
+  animation-delay: 0s;
+  animation: rotation 6s;
+  animation-iteration-count: infinite;
+}
+
+#second {
+  position: absolute;
+  top: -15px;
+  right: -45px;
+  opacity: 0;
+  animation: rotation 6s;
+}
+
+#third {
+  position: absolute;
+  top: -15px;
+  right: -45px;
+  opacity: 0;
+  animation-delay: 6s;
+  animation: rotation 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes rotation {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(46px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(92px);
+  }
 }
