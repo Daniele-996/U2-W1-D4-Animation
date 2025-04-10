@@ -7,4 +7,20 @@
 6 animare le altre 2 parole
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
-
+body {
+  font-family: "Bree Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  display: flex;
+  justify-content: center;
+}
+#testoAlternato {
+  margin-top: 5rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: start;
+  width: 600px;
+  height: auto;
+  border: 2px solid #666666;
+}

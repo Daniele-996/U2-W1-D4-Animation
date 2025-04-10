@@ -39,7 +39,7 @@ p {
   background-color: #fdfdcb;
   box-shadow: 5px 10px 10px #2e2e2e;
   margin: 1rem;
-  transform: rotateZ(356deg);
+  transform: rotateZ(-6deg);
 }
 
 .colorG {
@@ -53,10 +53,12 @@ p {
   background-color: #c9c9f7;
   box-shadow: 5px 10px 10px #2e2e2e;
   margin: 1rem;
-  transform: rotateZ(351deg);
+  transform: rotateZ(-9deg);
 }
 
 .postit:hover {
+  box-shadow: 10px 20px 20px #2e2e2e;
   transform: unset;
   transition: transform 1s;
+  transform: scale(1.2);
 }
