@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #666666;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-family: "Indie Flower";
+  font-style: normal;
+  font-weight: 400;
+  margin-inline: auto;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 20px;
+  padding: 0.8;
+}
+.postit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  border: 0;
+}
+
+.colorY {
+  background-color: #fdfdcb;
+  box-shadow: 5px 10px 10px #2e2e2e;
+  margin: 1rem;
+  transform: rotateZ(356deg);
+}
+
+.colorG {
+  background-color: #bae0bb;
+  box-shadow: 5px 10px 10px #2e2e2e;
+  margin: 1rem;
+  transform: rotateZ(6deg);
+}
+
+.colorV {
+  background-color: #c9c9f7;
+  box-shadow: 5px 10px 10px #2e2e2e;
+  margin: 1rem;
+  transform: rotateZ(351deg);
+}
+
+.postit:hover {
+  transform: unset;
+  transition: transform 1s;
+}
