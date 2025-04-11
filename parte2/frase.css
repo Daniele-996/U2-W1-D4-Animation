@@ -47,33 +47,35 @@ p {
 #second {
   position: absolute;
   top: -15px;
-  right: -45px;
+  right: -50px;
   opacity: 0;
+  animation-delay: 2s !important;
   animation: rotation 6s;
+  animation-iteration-count: infinite;
 }
 
 #third {
   position: absolute;
   top: -15px;
-  right: -45px;
+  right: -18px;
   opacity: 0;
-  animation-delay: 6s;
+  animation-delay: 4s !important;
   animation: rotation 6s;
   animation-iteration-count: infinite;
 }
 @keyframes rotation {
   0% {
     opacity: 0;
-    transform: translateY(0);
+    transform: translateY(0px);
   }
 
   50% {
-    opacity: 1;
+    opacity: 1.2;
     transform: translateY(46px);
   }
 
   100% {
     opacity: 0;
-    transform: translateY(92px);
+    transform: translateY(69px);
   }
 }
